@@ -46,6 +46,16 @@ flowchart TD
     E --> F
     H --> F
     F --> G
+
+```
+Node.js Application
+        ↓
+Docker Container
+        ↓
+Kubernetes (Minikube Cluster)
+        ↓
+Terraform Infrastructure Automation
+```
 ```
 
 ---
