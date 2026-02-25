@@ -25,9 +25,8 @@ The goal of this project is to demonstrate **real-world DevOps engineering capab
 ---
 
 ## 🏗 Architecture
-````markdown
-## 📊 Architecture Diagram
 
+## 📊 Architecture Diagram
 ```mermaid
 flowchart TD
     A[Developer Push] -->|Commits code| B[GitHub Repository]
