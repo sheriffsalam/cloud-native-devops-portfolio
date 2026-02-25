@@ -25,19 +25,18 @@ The goal of this project is to demonstrate **real-world DevOps engineering capab
 ---
 
 ## 🏗 Architecture
-
+````markdown
 ## 📊 Architecture Diagram
 
 ```mermaid
 flowchart TD
     A[Developer Push] -->|Commits code| B[GitHub Repository]
     B --> C[GitHub Actions CI/CD]
-    C --> D[Docker Image Build]
+    C --> D[Docker Build]
     D --> E[Container Image]
     E --> F[Kubernetes Deployment]
     F --> G[Running Pods in Minikube]
     H[Terraform Infrastructure Provisioning] --> F
-```
 
 ## ⚙️ Technologies Used
 
