@@ -30,7 +30,7 @@ The goal of this project is to demonstrate **real-world DevOps engineering capab
 
 This project follows a modern cloud-native DevOps workflow:
 
-```
+```mermaid
 Developer
    ↓
 GitHub Repository
