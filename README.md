@@ -26,37 +26,17 @@ The goal of this project is to demonstrate **real-world DevOps engineering capab
 
 ## 🏗 Architecture
 
-## 🏗 Architecture
-
-This project follows a modern cloud-native DevOps workflow:
-
-```mermaid
-Developer
-   ↓
-GitHub Repository
-   ↓
-GitHub Actions (CI Pipeline)
-   ↓
-Docker Image Build
-   ↓
-Kubernetes Deployment (Minikube)
-   ↓
-Running Application Pods
-```
-
----
-
 ## 📊 Architecture Diagram
 
 ```mermaid
 flowchart TD
-    A[Developer Push] --> B[GitHub Repository]
-    B --> C[GitHub Actions CI]
-    C --> D[Docker Build]
+    A[Developer Push] -->|Commits code| B[GitHub Repository]
+    B --> C[GitHub Actions CI/CD]
+    C --> D[Docker Image Build]
     D --> E[Container Image]
     E --> F[Kubernetes Deployment]
     F --> G[Running Pods in Minikube]
-    H[Terraform Infrastructure] --> F
+    H[Terraform Infrastructure Provisioning] --> F
 ```
 
 ## ⚙️ Technologies Used
