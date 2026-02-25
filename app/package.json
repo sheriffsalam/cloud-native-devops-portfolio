@@ -1,0 +1,14 @@
+{
+  "name": "cloud-native-app",
+  "version": "1.0.0",
+  "description": "Cloud Native DevOps Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sheriff Salam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
